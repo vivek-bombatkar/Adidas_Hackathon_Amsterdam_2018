@@ -7,16 +7,16 @@ class Block:
         self.timestamp = timestamp
         self.data = data
         self.prev_hash = prev_hash
-        self.hash = hash.sha256(data.encode('ascii')).hexdigest()
+        self.hash = hash.sha256(str(data).encode('ascii')).hexdigest()
 
     def __repr__(self):
         return "{0} : {1}, {2}, {3} ".format(self.Transaction_ID, str(self.timestamp), self.data,self.prev_hash)
 
 def getGenesisBlock():
-    return Block(0, date.datetime.now(), "the genesis block", "0")
-
+    return Block('8f6b7d0d-ca32-4598-8a60-9a1852d0aa32_'+str(0), date.datetime.now(), "the genesis block", "0")
+#8f6b7d0d-ca32-4598-8a60-9a1852d0aa32
 def getNextBlock(prev_block, data):
-    Transaction_ID = prev_block.Transaction_ID + 1
+    Transaction_ID = prev_block.Transaction_ID.split('_')[0] + '_' + str(int(prev_block.Transaction_ID.split("_")[-1]) + 1)
     timestamp = date.datetime.now()
     data = data
     hash = prev_block.hash
@@ -24,7 +24,6 @@ def getNextBlock(prev_block, data):
 
 def validateTransactionID(TxID, bc):
     for block in bc:
-#        print "{} : {}".format(TxID, block.Transaction_ID)
         if str(block.Transaction_ID) == str(TxID).strip():
             return True
     return False
