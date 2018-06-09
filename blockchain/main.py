@@ -19,7 +19,7 @@ def getPrductHistory(txID):
     if blockChain.validateTransactionID(txID,bc):
         # TODO: returining the entire bc !!!
         for block in bc:
-          result.append(block.data)
+          result.append("{},{}".format(block.timestamp,block.data))
     else:
         return []
     return result
