@@ -12,3 +12,9 @@ variable "locationShort" {
   type    = "string"
   default = "eu"
 }
+
+variable "registry_name" {
+  type    = "string"
+  default = "adicoderegistry"
+}
+
