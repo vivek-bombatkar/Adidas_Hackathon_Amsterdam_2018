@@ -39,13 +39,11 @@ if __name__ == '__main__':
     bc = [blockChain.getGenesisBlock()]
     initBlockchain(filePath)
 
+
     addBlockchain(0,'{"Name": "Powerlift.3.1 Shoes","From": "Vanya Kostova, Nuremberg, Germany","Transferred to": "Tiago, Portugal"}')
-'''
-    addBlockchain(0,'owner_2:vivek')
-    print(getPrductHistory(1))
 
-'''
 
-for item in getPrductHistory(1):
-    print("#" * 10)
-    print(item)
+    for item in getPrductHistory(1):
+        print("#" * 10)
+        print(item)
+
