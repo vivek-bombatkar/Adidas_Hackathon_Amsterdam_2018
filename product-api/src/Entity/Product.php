@@ -31,6 +31,14 @@ class Product
      */
     private $attributes = [];
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(type="string", nullable=true, options={"default" : "unnamed"})
+     * @ApiProperty()
+     */
+    private $name = "unnamed";
+
     public function __construct()
     {
         $this->id = Uuid::uuid4();
@@ -49,5 +57,21 @@ class Product
     public function setAttributes(array $attributes): void
     {
         $this->attributes = $attributes;
+    }
+
+    /**
+     * @return string
+     */
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    /**
+     * @param string $name
+     */
+    public function setName(string $name): void
+    {
+        $this->name = $name;
     }
 }

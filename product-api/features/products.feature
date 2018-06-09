@@ -17,11 +17,13 @@ Feature: Manage products
     [
       {
         "id": "a349e23f-ae57-487c-88ee-2efa49684fd7",
-        "attributes": "@array@.count(2)"
+        "attributes": "@array@.count(2)",
+        "name": "@string@"
       },
       {
         "id": "d54f18be-fca1-4b8d-b389-12eb288935f4",
-        "attributes": "@array@.count(1)"
+        "attributes": "@array@.count(1)",
+        "name": "@string@"
       }
     ]
     """
