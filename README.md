@@ -5,6 +5,6 @@ This project was developed under 38 hrs for https://adidas-hack.com/location/Ams
 # Deploy from local
 
 ```bash
-
+./scripts/deploy-from-local.sh  
 
 ```
