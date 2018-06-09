@@ -1,6 +1,6 @@
 variable "env" {
   type        = "string"
-  default     = "dev"
+  default     = "prod"
 }
 
 variable "location" {
@@ -11,4 +11,9 @@ variable "location" {
 variable "locationShort" {
   type    = "string"
   default = "eu"
+}
+
+variable "registry_name" {
+  type    = "string"
+  default = "adicoderegistry"
 }
