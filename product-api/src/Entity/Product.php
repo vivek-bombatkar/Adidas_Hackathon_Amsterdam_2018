@@ -12,7 +12,14 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity
- * @ApiResource()
+ * @ApiResource(
+ *     collectionOperations={
+ *         "get"={"path"="/wardrobe"},
+ *     },
+ *     itemOperations={
+ *         "get"={},
+ *     }
+ * )
  * @OwnerAware(ownerFieldName="owner")
  */
 class Product implements OwnerAwareInterface

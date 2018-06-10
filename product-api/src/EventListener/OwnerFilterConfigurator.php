@@ -24,7 +24,7 @@ final class OwnerFilterConfigurator
     public function onKernelRequest(): void
     {
         if (!$user = $this->getUser()) {
-            throw new \RuntimeException('There is no authenticated user.');
+            return;
         }
 
 

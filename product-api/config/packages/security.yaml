@@ -8,7 +8,7 @@ security:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
         main:
-            pattern: ^/
+            pattern: ^/wardrobe
             stateless: true
             anonymous: true
             provider: jwt
@@ -17,4 +17,5 @@ security:
                     - lexik_jwt_authentication.jwt_token_authenticator
 
     access_control:
-        - { path: ^/, roles: [ROLE_USER] }
+        - { path: ^/wardrobe, roles: [ROLE_USER] }
+        - { path: ^/products, role: IS_AUTHENTICATED_ANONYMOUSLY }
