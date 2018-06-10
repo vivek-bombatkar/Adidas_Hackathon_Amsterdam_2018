@@ -33,10 +33,9 @@ git clone https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018.git
 ./scripts/deploy-from-local.sh
 ```
 
-## Folder Structure
+### Folder Structure
 
 ```bash
-.
 |infrastructure : Teraform files to deploy cloud infra to Azure
 |scripts : Scripts to help deployement from local machine
 |api-gateway : Central point of entry for the diferent APIs (express-gateway)
