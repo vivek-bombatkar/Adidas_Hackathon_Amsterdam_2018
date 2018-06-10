@@ -21,7 +21,7 @@ This project was developed under 48 hrs for https://adidas-hack.com/location/Ams
 ```
 git clone https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018.git
 ```
-```
+
 
 ## Prerequisites
 ```
