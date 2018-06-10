@@ -13,10 +13,3 @@ git clone https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018.git
 pip install -r requirements.txt
 ```
 
-## Running the application
-```
-python product_api\api_addBlockchain.py
-
-python product_api\api_addBlockchain.py
-
-```
