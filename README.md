@@ -36,7 +36,7 @@ pip install -r requirements.txt
 |--------__init__.py
 ```
 
-### Access the "code" (project) Outsystems: https://devenv.outsystemscloud.com
+### Access the frontend "code" Outsystems: https://devenv.outsystemscloud.com
 ```
 Environment: adicode-code.outsystemscloud.com
 User: 01adicode@gmail.com
