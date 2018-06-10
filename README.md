@@ -25,8 +25,8 @@ git clone https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018.git
 ```
 
 ### Prerequist 
- - install Axure cli
- - teraform docker
+ - install [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+ - install [teraform docker](https://github.com/broadinstitute/docker-terraform)
  
 ### Deploy azure cloud insfrastruture and build sevice containers
 ```
