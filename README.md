@@ -1,4 +1,4 @@
-<img src="https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/adidas.JPG" width="100" height="100" />
+<img src="https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/adidas.JPG" width="100" height="120" />
 
 
 # 01AdiCode
