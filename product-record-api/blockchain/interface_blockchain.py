@@ -2,7 +2,7 @@
 import json
 import pandas as pd
 from aiohttp import web
-from product_api.blockchain import private_blockchain as blockChain
+from blockchain import private_blockchain as blockChain
 
 
 def initBlockchain():
