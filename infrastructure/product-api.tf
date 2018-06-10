@@ -1,5 +1,5 @@
 resource "azurerm_template_deployment" "product" {
-  name = "productapistemplate-01"
+  name = "productapistemplate-02"
   resource_group_name = "${azurerm_resource_group.apis.name}"
 
   template_body = <<DEPLOY
