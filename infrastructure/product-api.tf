@@ -102,3 +102,7 @@ DEPLOY
   deployment_mode = "Incremental"
 }
 
+output "product_api_name" {
+  value = "${var.env}-product-api-${random_integer.rg.result}-app"
+}
+

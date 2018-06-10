@@ -25,3 +25,8 @@ resource "azurerm_app_service_plan" "product" {
   }
 }
 
+
+output "apis_resource_group_name" {
+  value = "${azurerm_resource_group.apis.name}"
+}
+
