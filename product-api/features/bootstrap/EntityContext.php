@@ -91,6 +91,10 @@ class EntityContext implements Context
 
     private function setEntityProperties($entity, array $values): void
     {
+        if ($entity instanceof \App\Model\OwnerAwareInterface) {
+            $entity->setOwner($values['owner'] ? $values['owner'] : self::BASE_USER["email"]);
+        }
+
 
         if ($entity instanceof \App\Entity\Product) {
             if ($values['attributes']) {

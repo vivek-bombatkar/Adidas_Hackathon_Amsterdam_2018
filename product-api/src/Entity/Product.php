@@ -4,6 +4,8 @@ namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiProperty;
 use ApiPlatform\Core\Annotation\ApiResource;
+use App\Annotation\OwnerAware;
+use App\Model\OwnerAwareInterface;
 use Doctrine\ORM\Mapping as ORM;
 use Ramsey\Uuid\Uuid;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -11,8 +13,9 @@ use Symfony\Component\Validator\Constraints as Assert;
 /**
  * @ORM\Entity
  * @ApiResource()
+ * @OwnerAware(ownerFieldName="owner")
  */
-class Product
+class Product implements OwnerAwareInterface
 {
     /**
      * @var string
@@ -38,6 +41,13 @@ class Product
      * @ApiProperty()
      */
     private $name = "unnamed";
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(type="string")
+     */
+    private $owner = "";
 
     public function __construct()
     {
@@ -73,5 +83,15 @@ class Product
     public function setName(string $name): void
     {
         $this->name = $name;
+    }
+
+    public function getOwner(): string
+    {
+        return $this->owner;
+    }
+
+    public function setOwner(string $owner): void
+    {
+        $this->owner = $owner;
     }
 }
