@@ -1,17 +1,18 @@
 # 01AdiCode
 This project was developed by team '01AdiCode',  under 48 hrs for https://adidas-hack.com/location/Amsterdam
 
-### Frontend Screenshots
-> https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/Frontend_Screenshots.pdf
 
 ### The team's pager
 > https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/Team_One_Pager.pdf
+
+### Frontend Screenshots
+> https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/Frontend_Screenshots.pdf
+
 
 ## get the code locally
 ```
 git clone https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018.git
 ```
-
 
 ## Prerequisites
 ```
@@ -32,6 +33,11 @@ pip install -r requirements.txt
 |--------__init__.py
 ```
 
-
+### Access the "code" (project) Outsystems: https://devenv.outsystemscloud.com
+```
+Environment: adicode-code.outsystemscloud.com
+User: 01adicode@gmail.com
+Pass: 01ADICODEzzz (edited)
+```
 
 
