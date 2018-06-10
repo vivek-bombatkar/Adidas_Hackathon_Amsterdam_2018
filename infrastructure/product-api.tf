@@ -81,6 +81,34 @@ resource "azurerm_template_deployment" "product" {
               {
                   "name": "APP_TRUSTED_HOSTS",
                   "value": "[parameters('trusted_host')]"
+              },
+              {
+                  "name": "APP_CORS_ALLOW_ORIGIN",
+                  "value": "^https?://.*$"
+              },
+              {
+                  "name": "APP_JWT_PRIVATE_KEY_PATH",
+                  "value": "config/jwt/private.pem"
+              },
+              {
+                  "name": "APP_JWT_PUBLIC_KEY_PATH",
+                  "value": "config/jwt/public.pem"
+              },
+              {
+                  "name": "APP_TRUSTED_PROXIES",
+                  "value": "10.0.0.0/8,172.16.0.0/12,192.168.0.0/16"
+              },
+              {
+                  "name": "APP_VARNISH_URL",
+                  "value": ""
+              },
+              {
+                  "name": "APP_JWT_PASSPHRASE",
+                  "value": ""
+              },
+              {
+                  "name": "APP_APP_SECRET",
+                  "value": ""
               }
           ],
           "appCommandLine": "",

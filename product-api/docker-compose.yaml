@@ -5,6 +5,7 @@ services:
     image: ${CONTAINER_REGISTRY_BASE}/php
     build:
       context: .
+      dockerfile: Dockerfile.back
       cache_from:
         - ${CONTAINER_REGISTRY_BASE}/php
     depends_on:
