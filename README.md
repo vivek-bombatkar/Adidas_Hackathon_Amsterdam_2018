@@ -2,9 +2,21 @@
 This project was developed under 48 hrs for https://adidas-hack.com/location/Amsterdam
 
 
-# Deploy from local
+## get the code locally
+```
+git clone https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018.git
+```
 
-```bash
-./scripts/deploy-from-local.sh  
+
+## Prerequisites
+```
+pip install -r requirements.txt
+```
+
+## Running the application
+```
+python product_api\api_addBlockchain.py
+
+python product_api\api_addBlockchain.py
 
 ```
