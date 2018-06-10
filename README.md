@@ -9,7 +9,7 @@ This project was developed by team '01AdiCode',  under 48 hrs for https://adidas
 > https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/Frontend_Screenshots.pdf
 
 
-## get the code locally
+## Get the code locally
 ```
 git clone https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018.git
 ```
