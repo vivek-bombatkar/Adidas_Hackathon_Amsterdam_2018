@@ -1,4 +1,4 @@
-![Logo of the project](Adidas_Amsterdam_2018/adidas.JPG)
+![Logo of the project](./Adidas_Amsterdam_2018/adidas.JPG)
 
 
 # 01AdiCode
