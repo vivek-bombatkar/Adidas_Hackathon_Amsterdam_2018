@@ -1,5 +1,5 @@
 ![Logo of the project] 
-<img src="./blob/master/adidas.JPG" width="50" height="50" />
+<img src="https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/adidas.JPG" width="50" height="50" />
 
 
 # 01AdiCode
