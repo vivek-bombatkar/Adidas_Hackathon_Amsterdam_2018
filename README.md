@@ -1,4 +1,5 @@
-![Logo of the project](https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/adidas.JPG =24x48)
+![Logo of the project] 
+<img src="./blob/master/adidas.JPG" width="50" height="50" />
 
 
 # 01AdiCode
