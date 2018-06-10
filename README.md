@@ -30,7 +30,8 @@ pip install -r requirements.txt
 
 ## Folder Structure
 
-```
+```bash
+.
 |product-record-api/
 |----product_records_api.py
 |----requirements.txt
