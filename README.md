@@ -3,6 +3,9 @@
 # 01AdiCode
 This project was developed by team '01AdiCode',  under 48 hrs for https://adidas-hack.com/location/Amsterdam
 
+We are able to handcraft an amazing next generation shopping experience powered by blockchain, enabled with NFC and delivered on the mobile. The solution is intended to reveal the product journey and prove the authenticity of a product. 
+
+
 
 ### The team's pager
 > https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/Team_One_Pager.pdf
