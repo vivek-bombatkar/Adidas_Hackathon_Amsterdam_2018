@@ -17,14 +17,20 @@ We are able to handcraft an amazing next generation shopping experience powered 
 > https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/Solution%20Focus.pdf
 
 
-## Get the code locally
+## Get it sttarted 
+
+### Get the code locally
 ```
 git clone https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018.git
 ```
 
-## Prerequisites
+### Prerequist 
+ - install Axure cli
+ - teraform docker
+ 
+### Deploy azure cloud insfrastruture and build sevice containers
 ```
-pip install -r requirements.txt
+./scripts/deploy-from-local.sh
 ```
 
 ## Folder Structure
