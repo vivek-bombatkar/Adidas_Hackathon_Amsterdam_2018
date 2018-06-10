@@ -1,0 +1,48 @@
+http:
+  port: 8080
+admin:
+  port: 9876
+  hostname: localhost
+
+
+policies:
+  - proxy
+
+apiEndpoints:
+  product:
+    path: '/products/*'
+  wardrobs:
+    path: '/wardrobe'
+  product-record:
+    path: '/product-records/*'
+
+serviceEndpoints:
+  product:
+    url: ${PRODUCT_API_URL}
+  product-record:
+    url: ${PRODUCT_RECORD_API_URL}
+
+# Todo (running out of time, use endpoint api directly)
+pipelines:
+  wardrobe-pipeline:
+    apiEndpoints:
+      - wardrobe
+    policies:
+      - proxy:
+        - condition:
+            name: pathExact
+            path: /wardrobe
+          action:
+            serviceEndpoint: product
+
+  product-record-pipeline:
+    apiEndpoints:
+      - product-record
+    policies:
+      - proxy:
+        -   # list of actions
+          condition:
+            name: pathExact
+            path: /product-records
+          action:
+            serviceEndpoint: product-record
