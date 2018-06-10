@@ -37,14 +37,12 @@ git clone https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018.git
 
 ```bash
 .
-|product-record-api/
-|----product_records_api.py
-|----requirements.txt
-|----__init__.py
-|----blockchain/
-|--------interface_blockchain.py
-|--------private_blockchain.py
-|--------__init__.py
+|infrastructure : Teraform files to deploy cloud infra to Azure
+|scripts : Scripts to help deployement from local machine
+|api-gateway : Central point of entry for the diferent APIs (express-gateway)
+|product-api : Product Rest API (PHP/Symfony/api-platform)
+|product-record-api : Python code for implementation of private blockchain
+|row_data
 ```
 
 ### Access the frontend "code" Outsystems: https://devenv.outsystemscloud.com
