@@ -11,6 +11,9 @@ This project was developed by team '01AdiCode',  under 48 hrs for https://adidas
 ### Frontend Screenshots
 > https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/Frontend_Screenshots.pdf
 
+### Technical solution
+> https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/Solution%20Focus.pdf
+
 
 ## Get the code locally
 ```
