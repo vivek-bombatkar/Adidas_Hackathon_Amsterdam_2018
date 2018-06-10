@@ -7,6 +7,9 @@ use Behat\Gherkin\Node\TableNode;
 
 class EntityContext implements Context
 {
+    const BASE_USER = [
+        'email' => 'base-user@example.com',
+    ];
 
     /**
      * @var ManagerRegistry

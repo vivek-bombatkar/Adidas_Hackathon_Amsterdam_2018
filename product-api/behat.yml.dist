@@ -6,6 +6,7 @@ default:
       contexts:
         - FeatureContext: { doctrine: "@doctrine" }
         - EntityContext: { doctrine: "@doctrine" }
+        - SecurityContext: { jwtEncoder: "@lexik_jwt_authentication.encoder" }
         - JsonContext
         - Behat\MinkExtension\Context\MinkContext
         - Behatch\Context\RestContext

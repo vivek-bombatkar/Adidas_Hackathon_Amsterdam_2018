@@ -1,0 +1,5 @@
+lexik_jwt_authentication:
+    private_key_path: '%kernel.root_dir%/../features/resources/jwt/private.pem'
+    public_key_path: '%kernel.root_dir%/../features/resources/jwt/public.pem'
+    pass_phrase: behat
+    token_ttl: 86400
