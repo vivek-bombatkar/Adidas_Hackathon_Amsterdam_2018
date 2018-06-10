@@ -14,7 +14,7 @@ class Block:
 
 def getGenesisBlock():
     return Block('8f6b7d0d-ca32-4598-8a60-9a1852d0aa32_'+str(0), date.datetime.now(), "the genesis block", "0")
-#8f6b7d0d-ca32-4598-8a60-9a1852d0aa32
+
 def getNextBlock(prev_block, data):
     Transaction_ID = prev_block.Transaction_ID.split('_')[0] + '_' + str(int(prev_block.Transaction_ID.split("_")[-1]) + 1)
     timestamp = date.datetime.now()
