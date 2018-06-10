@@ -1,4 +1,4 @@
-![Logo of the project](./Adidas_Amsterdam_2018/adidas.JPG)
+![Logo of the project](https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/adidas.JPG)
 
 
 # 01AdiCode
