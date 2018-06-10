@@ -1,3 +1,6 @@
+![Logo of the project](Adidas_Amsterdam_2018/adidas.JPG)
+
+
 # 01AdiCode
 This project was developed by team '01AdiCode',  under 48 hrs for https://adidas-hack.com/location/Amsterdam
 
