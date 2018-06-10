@@ -1,6 +1,4 @@
 <img src="https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/adidas.JPG" width="130" height="100" />
-
-
 # 01AdiCode
 This project was developed by team '01AdiCode',  under 48 hrs for https://adidas-hack.com/location/Amsterdam
 
