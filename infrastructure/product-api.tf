@@ -31,6 +31,9 @@ resource "azurerm_template_deployment" "product" {
     "product_database_url": {
       "type": "string"
     },
+    "trusted_host": {
+      "type": "string"
+    },
     "image": {
       "type": "string",
       "metadata": {
@@ -74,6 +77,10 @@ resource "azurerm_template_deployment" "product" {
               {
                   "name": "APP_DATABASE_URL",
                   "value": "[parameters('product_database_url')]"
+              },
+              {
+                  "name": "APP_TRUSTED_HOSTS",
+                  "value": "[parameters('trusted_host')]"
               }
           ],
           "appCommandLine": "",
@@ -97,6 +104,7 @@ DEPLOY
     docker_registry_username = "${azurerm_container_registry.common.admin_username}"
     docker_registry_password = "${azurerm_container_registry.common.admin_password}"
     product_database_url = "pgsql://${azurerm_postgresql_server.product-db.administrator_login}@${azurerm_postgresql_database.product-db.server_name}:${azurerm_postgresql_server.product-db.administrator_login_password}@${azurerm_postgresql_server.product-db.fqdn}/${azurerm_postgresql_database.product-db.name}"
+    trusted_host = "localhost,api,${var.env}-product-api-${random_integer.rg.result}-app.azurewebsites.net"
   }
 
   deployment_mode = "Incremental"
