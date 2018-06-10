@@ -16,8 +16,8 @@ resource "azurerm_app_service_plan" "product" {
   kind                = "linux"
 
   sku {
-    tier = "Basic"
-    size = "B1"
+    tier = "Standard"
+    size = "S1"
   }
 
   properties {
