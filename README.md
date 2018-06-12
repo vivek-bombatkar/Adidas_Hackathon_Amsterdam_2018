@@ -5,7 +5,8 @@ This project was developed by team '01AdiCode',  under 48 hrs for https://adidas
 
 We are able to handcraft an amazing next generation shopping experience powered by blockchain, enabled with NFC and delivered on the mobile. The solution is intended to reveal the product journey and prove the authenticity of a product. 
 
-
+### More about it...
+> https://www.linkedin.com/pulse/staying-fit-adidas-hackathon-amsterdam-2018-vivek-bombatkar?trk=portfolio_article-card_title
 
 ### The team's pager
 > https://github.com/vivek-bombatkar/Adidas_Amsterdam_2018/blob/master/Team_One_Pager.pdf
